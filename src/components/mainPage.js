@@ -9,7 +9,7 @@ export default function MainPage() {
         // Disable animation after a short delay (e.g., 2 seconds)
         const timer = setTimeout(() => {
             setAnimate(false);
-        }, 1000);
+        }, 500);
 
         return () => clearTimeout(timer);
     }, []);
