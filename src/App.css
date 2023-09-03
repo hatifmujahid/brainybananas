@@ -46,7 +46,26 @@
     opacity: 1;
   }
 }
+@keyframes slideOut {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
-.slide-in {
+
+.slide-in-contact-us {
+  animation: slideIn 0.8s ease-out forwards;
+}
+
+.slide-in-courses-heading{
+  animation: slideOut 0.8s ease-out forwards;
+}
+
+.slide-in-courses{
   animation: slideIn 0.8s ease-out forwards;
 }
