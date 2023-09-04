@@ -26,8 +26,8 @@ export default function Team(){
             <div class={`team-section py-8 lg:py-16 px-4 mx-auto max-w-screen-md ${isVisible ? 'slideup-main' : ''}`}>
                 <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Team</h1>
                 <div class="inline-flex mt-6">
-                    <TeamCard link="https://linkedin.com" university="MAJU" position="Assistant Professor" name="Asma Chang"  description="Asma Abdul Rahim Chang is the founder of BrainyBananas. She is an educationist and a trainer with a specialization in entrepreneurship and marketing. "/>
-                    <TeamCard link="https://linkedin.com" university="IoBM" position="Assistant Professor" name="Muhammad Saeed Mujahid"  description="Dr. Saeed Mujahid is the co-founder of BrainyBananas. He holds a PhD degree in entrepreneurship and has more than 20 years of professional and teaching experience."/>
+                    <TeamCard link="https://www.linkedin.com/in/asmachang/" university="MAJU" position="Assistant Professor" name="Asma Chang"  description="Asma Abdul Rahim Chang is the founder of BrainyBananas. She is an educationist and a trainer with a specialization in entrepreneurship and marketing. "/>
+                    <TeamCard link="https://www.linkedin.com/in/muhammad-saeed-mujahid-phd-45585430/" university="IoBM" position="Assistant Professor" name="Muhammad Saeed Mujahid"  description="Dr. Saeed Mujahid is the co-founder of BrainyBananas. He holds a PhD degree in entrepreneurship and has more than 20 years of professional and teaching experience."/>
                 </div>
             </div>
         </div>

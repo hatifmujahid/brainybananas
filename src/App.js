@@ -12,7 +12,7 @@ import Footer from './components/footer';
 function App() {
   return (
    <div >
-    <div id='home-page-top-portion' className="h-screen bg-green-500" style={{scrollSnapStop:'always'}}>
+    <div id='home-page-top-portion' className=" bg-hero-pattern bg-center bg-no-repeat bg-cover bg-gray-700 bg-blend-multiply h-screen" style={{scrollSnapStop:'always'}}>
       <Navbar />
       <MainPage />
     </div>
