@@ -5,6 +5,7 @@ import MainPage from './components/mainPage';
 import ContactUs from './components/contactUs';
 import Team from './components/ourTeam';
 import doodle from './assets/doodles.jpg';
+import Footer from './components/footer';
 
 
 
@@ -21,6 +22,7 @@ function App() {
     <div className="h-screen bg-purple-500" style={{scrollSnapStop:'always'}}>
       <ContactUs />
     </div>
+    <Footer />
    </div>
   );
 }

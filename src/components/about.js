@@ -1,6 +1,7 @@
 import Navbar from "./navbar"
 import React, { useRef, useEffect} from 'react'
 import { Parallax, ParallaxLayer} from '@react-spring/parallax'
+import Footer from "./footer"
 
 export default function About() {
     const parallax = useRef(null)
@@ -11,18 +12,18 @@ export default function About() {
     <div style={{ width: '100%', height: '100%',background: '#253237'}}>
     <Navbar />
       <Parallax pages={3} ref={parallax} style={{background: '#253237'}}>
-            <ParallaxLayer offset={0} speed={1} style={{ background: '#253237'}} >
-                <section class="dark:bg-gray-900">
-                    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16 ">
-                        <div class="flex flex-col justify-center slide-in-courses-heading">
-                            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Our Story</h1>
-                            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">We firmly believe that learning should be enjoyable. All our courses incorporate engaging activities that captivate students’ imagination, making the journey to self-assurance an exciting adventure. By combining playfulness and learning, we ensure that every step is memorable and rewarding.</p>
-                        </div>
-                    </div>
-                </section>
+        <ParallaxLayer offset={0} speed={1} className="parallax-layer">
+            <section className="dark:bg-gray-900 flex items-center justify-center h-full">
+                <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+                <div className="flex flex-col justify-center">
+                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-200 md:text-5xl lg:text-6xl dark:text-white">Our Story</h1>
+                    <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">We firmly believe that learning should be enjoyable. All our courses incorporate engaging activities that captivate students’ imagination, making the journey to self-assurance an exciting adventure. By combining playfulness and learning, we ensure that every step is memorable and rewarding.</p>
+                </div>
+                </div>
+            </section>
             </ParallaxLayer>
             <ParallaxLayer offset={1} speed={0.3} style={{ backgroundColor: 'yellowgreen'}} >
-                <section class=" dark:bg-gray-900">
+                <section class=" dark:bg-gray-900 flex items-center justify-center h-full">
                     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16 ">
                         <div class="flex flex-col justify-center slide-in-courses-heading">
                             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Why Choose Us?</h1>
@@ -33,7 +34,7 @@ export default function About() {
 
             </ParallaxLayer>
             <ParallaxLayer offset={2} speed={0.8} style={{ backgroundColor: '#87BCDE'}} >
-                <section class=" dark:bg-gray-900">
+                <section class=" dark:bg-gray-900 flex items-center justify-center h-full">
                     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16 ">
                         <div class="flex flex-col justify-center slide-in-courses-heading">
                             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Our Mission</h1>
@@ -81,6 +82,9 @@ export default function About() {
                 <img src={url('cloud')} style={{ display: 'block', width: '15%', marginLeft: '75%' }} />
             </ParallaxLayer>
         </Parallax>
+        <div>
+            <Footer />
+        </div>
     </div>
   )
 }
