@@ -9,7 +9,7 @@ export default function About() {
       `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
     return (
-    <div style={{ width: '100%', height: '100%',background: '#253237'}}>
+    <div style={{ width: '100%', height: '100%',backgroundColor: 'yellowgreen'}}>
     <Navbar />
       <Parallax pages={3} ref={parallax} style={{background: '#253237'}}>
         <ParallaxLayer offset={0} speed={1} className="parallax-layer">
@@ -33,7 +33,7 @@ export default function About() {
                 </section>
 
             </ParallaxLayer>
-            <ParallaxLayer offset={2} speed={0.8} style={{ backgroundColor: '#87BCDE'}} >
+            <ParallaxLayer offset={2} speed={0.8} style={{ backgroundColor: '#72d479'}} >
                 <section class=" dark:bg-gray-900 flex items-center justify-center h-full">
                     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16 ">
                         <div class="flex flex-col justify-center slide-in-courses-heading">
@@ -82,9 +82,7 @@ export default function About() {
                 <img src={url('cloud')} style={{ display: 'block', width: '15%', marginLeft: '75%' }} />
             </ParallaxLayer>
         </Parallax>
-        <div>
-            <Footer />
-        </div>
+        
     </div>
   )
 }
