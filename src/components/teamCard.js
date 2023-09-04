@@ -1,6 +1,6 @@
 export default function TeamCard(props){
     return(             
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mr-5">
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mr-5">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
             
             <div class="p-5">

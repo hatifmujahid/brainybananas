@@ -29,7 +29,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className=" dark:bg-gray-900  ">
+    <nav className=" dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="nybananas.vercel.app" className="flex items-center">
           <img
@@ -70,7 +70,7 @@ export default function Navbar() {
           className={`${isNavbarOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`}
           id="navbar-default"
         >
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
             {navItems.map((item, index) => (
               <Link to={item.link} >
                 <li key={index} className=''>
