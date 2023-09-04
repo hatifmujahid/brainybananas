@@ -12,3 +12,6 @@
   background: #787878;
   
 }
+html{
+  scroll-behavior: smooth;
+}

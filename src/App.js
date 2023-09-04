@@ -4,20 +4,23 @@ import Navbar from './components/navbar';
 import MainPage from './components/mainPage';
 import ContactUs from './components/contactUs';
 import Team from './components/ourTeam';
+import doodle from './assets/doodles.jpg';
 
 
 
 function App() {
   return (
-   <div>
-    <div id='home-page-top-portion' className="bg-center  bg-no-repeat bg-blend-multiply bg-slate-800 h-screen">
+   <div >
+    <div id='home-page-top-portion' className="h-screen bg-green-500" style={{scrollSnapStop:'always'}}>
       <Navbar />
       <MainPage />
     </div>
-    <div id='home-page-top-portion' className="bg-center  bg-no-repeat bg-blend-multiply h-screen">
+    <div id='home-page-top-portion' className="h-screen bg-yellow-200 "style={{scrollSnapStop:'always'}}>
       <Team />
     </div>
-    <ContactUs />
+    <div className="h-screen bg-purple-500" style={{scrollSnapStop:'always'}}>
+      <ContactUs />
+    </div>
    </div>
   );
 }

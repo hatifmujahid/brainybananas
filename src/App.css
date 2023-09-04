@@ -57,6 +57,16 @@
   }
 }
 
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 .slide-in-contact-us {
   animation: slideIn 0.8s ease-out forwards;
@@ -68,4 +78,7 @@
 
 .slide-in-courses{
   animation: slideIn 0.8s ease-out forwards;
+}
+.slideup-main{
+  animation: slideUp 0.8s ease-in-out forwards;
 }

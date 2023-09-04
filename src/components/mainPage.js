@@ -31,7 +31,7 @@ export default function MainPage() {
 
 
     return (
-        <div  className={`text-center ${animate ? 'opacity-0' : 'opacity-100'} duration-1000 `}>         
+        <div  className={`text-center ${animate ? 'opacity-0' : 'opacity-100'} duration-1000`}>         
             <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
                 <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Brainy Bananas</h1>
                 <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">BrainyBananas is dedicated to nurturing young minds by instilling essential social and life skills to help them confidently and competently navigate the complexities of the world ahead.</p>
