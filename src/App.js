@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
-import MainPage from './components/mainPage';
+import MainPage from './components/opening';
 import ContactUs from './components/contactUs';
 import Team from './components/ourTeam';
 import doodle from './assets/doodles.jpg';

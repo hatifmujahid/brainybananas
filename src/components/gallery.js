@@ -3,7 +3,7 @@ import Navbar from "./navbar";
 
 export default function Gallery() {
     return (
-        <div className="bg-center text-center bg-no-repeat bg-blend-multiply bg-slate-800">
+        <div className="bg-center text-center bg-blend-multiply bg-green-500 h-max w-full">
             <Navbar />
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl mt-10">Gallery</h1>            
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-20 mr-32 ml-32">

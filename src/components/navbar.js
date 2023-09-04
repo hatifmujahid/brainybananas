@@ -29,7 +29,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className=" dark:bg-gray-900 bg-white ">
+    <nav className=" dark:bg-gray-900  ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="nybananas.vercel.app" className="flex items-center">
           <img
